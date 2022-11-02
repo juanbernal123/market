@@ -17,7 +17,8 @@ class ArticleFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name'        => $this->faker->sentence(),
+            'description' => $this->faker->sentence(),
         ];
     }
 }
